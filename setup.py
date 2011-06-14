@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.0'
+version = '1.0a'
 
 setup(name='collective.deepsitemap',
       version=version,
-      description="A sitemap whose depth is configurable per request.",
+      description="A sitemap replacement for Plone, whose depth is configurable per request.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -13,6 +13,7 @@ setup(name='collective.deepsitemap',
       classifiers=[
         "Framework :: Plone",
         "Programming Language :: Python",
+        "Development Status :: 3 - Alpha",
         ],
       keywords='',
       author='RedTurtle Technology',

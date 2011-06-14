@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.0.0'
 
 setup(name='collective.deepsitemap',
       version=version,
@@ -29,10 +29,7 @@ setup(name='collective.deepsitemap',
       ],
       entry_points="""
       # -*- Entry points: -*-
-
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )

@@ -6,7 +6,7 @@ version = '1.0a'
 setup(name='collective.deepsitemap',
       version=version,
       description="A sitemap replacement for Plone, whose depth is configurable per request.",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
